@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 
   // register alias tasks
   grunt.registerTask('dev', 'Tasks for development, son',
-    ['watch']
+    ['jshint', 'watch']
   );
 
   grunt.registerTask('default', ['dev']);
