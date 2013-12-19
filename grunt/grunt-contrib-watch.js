@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   grunt.config('watch', {
     compass: {
-      files: ['assets/stylesheets/sass/**/*.sass'],
+      files: ['<%= compass.dev.src %>'],
       tasks: ['compass'],
     },
     jshint :{
