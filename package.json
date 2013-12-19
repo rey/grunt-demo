@@ -1,9 +1,9 @@
 {
   "name": "grunt-demo",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "author": "Reyhan Dhuny",
   "homepage": "http://reyhan.org",
-  "description": "zomg",
+  "description": "Learning config for a modular grunt setup",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-compass": "~0.7.0",
