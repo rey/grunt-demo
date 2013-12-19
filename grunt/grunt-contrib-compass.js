@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
   grunt.config('compass', {
-    dist: {
+    dev: {
       options: {
         config: 'config.rb',
         force: true,
