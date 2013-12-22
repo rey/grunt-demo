@@ -47,7 +47,7 @@ On OS X using Homebrew:
 
 ## Running Grunt
 
-Run the default grunt task by
+Run the default grunt task (currently `dev`) by
 
 `grunt`
 
