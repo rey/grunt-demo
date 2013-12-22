@@ -17,10 +17,10 @@ There's so many Grunt plugins that I've limited myself to 5 which I think accoun
 
 ### Tasks
 
-There are currently 2 tasks: `grunt dev` and `grunt deploy`. All tasks have the same `app` target, for the moment.
+There are currently 2 tasks: `grunt dev` and `grunt build`.
 
-* `grunt dev` fires up the `watch` task which keeps an eye on your Sass (`compass`) and JS (`jshint`) whilst you're bashing out code
-* `grunt deploy` runs all of the above and sticks them in the `assets/_deploy` folder read to be er, deployed
+* `grunt dev` fires up the `watch` task which keeps an eye on your Sass (`compass`) and JS (`jshint`) whilst you're bashing out code.
+* `grunt deploy` runs all of the above and sticks them in the `assets/_build` folder read to be er, deployed.
 
 ![Screenshot of grunt deploy in action](docs/images/grunt-deploy.png "Screenshot of grunt deploy in action")
 

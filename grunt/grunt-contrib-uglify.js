@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.config('uglify', {
     app: {
       files: {
-        'assets/_deploy/javascripts/minified.js':
+        'assets/_build/javascripts/minified.js':
           [
             'assets/javascripts/app/**/*.js',
             'assets/javascripts/libs/**/*.js'

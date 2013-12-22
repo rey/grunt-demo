@@ -1,1 +1,6 @@
-body{background-color:blue;font-weight:bold;position:relative}
+/* line 1, ../sass/include/_global.sass */
+body {
+  background-color: pink;
+  font-weight: bold;
+  position: relative;
+}

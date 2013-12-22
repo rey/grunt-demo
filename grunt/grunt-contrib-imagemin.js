@@ -7,7 +7,7 @@ module.exports = function(grunt) {
           cwd: 'assets/images/',
           expand: true,
           src: ['**/*.{png,jpg,jpeg,gif}'],
-          dest: 'assets/_deploy/images'
+          dest: 'assets/_build/images'
         }
       ]
     },
