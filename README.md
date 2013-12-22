@@ -20,7 +20,7 @@ There's so many Grunt plugins that I've limited myself to 5 which I think accoun
 There are currently 2 tasks: `grunt dev` and `grunt build`.
 
 * `grunt dev` fires up the `watch` task which keeps an eye on your Sass (`compass`) and JS (`jshint`) whilst you're bashing out code.
-* `grunt build` runs all of the above and sticks them in the `assets/_build` folder read to be deployed.
+* `grunt build` runs all of the above and sticks them in the `assets/_build` folder ready to be deployed.
 
 ![Screenshot of grunt build in action](docs/images/grunt-build.png "Screenshot of grunt build in action")
 
