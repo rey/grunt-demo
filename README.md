@@ -25,7 +25,7 @@ There are currently 2 tasks: `grunt dev` and `grunt build`.
 ![Screenshot of grunt build in action](docs/images/grunt-build.png "Screenshot of grunt build in action")
 
 
-## Dependencies
+## Requirements
 
 * `ruby 2.0.0p247` or any flavour of Ruby 2 would be fine, I suspect
 
