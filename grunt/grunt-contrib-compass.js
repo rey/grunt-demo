@@ -5,7 +5,6 @@ module.exports = function(grunt) {
       src: ['assets/stylesheets/sass/**/*.sass'],
       options: {
         config: 'config.rb',
-        //force: true,
         cssDir: 'assets/stylesheets/css',
         outputStyle: 'expanded',
         noLineComments: false,
@@ -15,7 +14,6 @@ module.exports = function(grunt) {
       src: ['assets/stylesheets/sass/**/*.sass'],
       options: {
         config: 'config.rb',
-        //force: true,
         cssDir: 'assets/_build/css',
         outputStyle: 'compressed',
         noLineComments: true,
