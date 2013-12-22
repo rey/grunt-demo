@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
+
   grunt.config('compass', {
-    dev: {
+    app: {
       src: ['assets/stylesheets/sass/**/*.sass'],
       options: {
         config: 'config.rb',
@@ -10,4 +11,5 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-compass');
+
 };

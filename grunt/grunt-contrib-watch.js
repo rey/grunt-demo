@@ -1,7 +1,8 @@
 module.exports = function(grunt) {
+
   grunt.config('watch', {
     compass: {
-      files: ['<%= compass.dev.src %>'],
+      files: ['<%= compass.app.src %>'],
       tasks: ['compass'],
     },
     jshint :{
@@ -11,4 +12,5 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
+
 };
