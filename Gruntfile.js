@@ -13,6 +13,10 @@ module.exports = function(grunt) {
     ['watch']
   );
 
+  grunt.registerTask('deploy', 'Run this before deploy',
+    ['compass', 'jshint', 'uglify', 'imagemin']
+  );
+
   grunt.registerTask('default', ['dev']);
 
 };
