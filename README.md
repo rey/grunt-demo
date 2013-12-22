@@ -15,6 +15,16 @@ There's so many Grunt plugins that I've limited myself to 5 which I think accoun
 * [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify) minifies js with uglifyjs
 * [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) minifies png, gif and jpg images
 
+### Tasks
+
+There are currently 2 tasks: `grunt dev` and `grunt deploy`. All tasks have the same `app` target, for the moment.
+
+* `grunt dev` fires up the `watch` task which keeps an eye on your Sass (`compass`) and JS (`jshint`) whilst you're bashing out code
+* `grunt deploy` runs all of the above and sticks them in the `assets/_deploy` folder read to be er, deployed
+
+![Screenshot of grunt deploy in action](docs/images/grunt-deploy.png "Screenshot of grunt deploy in action")
+
+
 ## Dependencies
 
 * `ruby 2.0.0p247` or any flavour of Ruby 2 would be fine, I suspect
