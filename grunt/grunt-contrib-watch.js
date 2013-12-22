@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   grunt.config('watch', {
     compass: {
-      files: ['<%= compass.app.src %>'],
+      files: ['<%= compass.dev.src %>'],
       tasks: ['compass:dev'],
     },
     jshint :{
