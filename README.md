@@ -1,6 +1,20 @@
 grunt-demo
 ==========
 
+## About
+
+This is a proof of concept of how I could use Grunt to make front end development super efficient.
+
+### Plugins
+
+There's so many Grunt plugins that I've limited myself to 5 which I think account for the majority of the work I find myself doing. These are:
+
+* [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) does all the compass wizardry
+* [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch) runs asks when watched files/directories are changed
+* [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint) validates files with jshint
+* [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify) minifies js with uglifyjs
+* [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) minifies png, gif and jpg images
+
 ## Dependencies
 
 * `ruby 2.0.0p247` or any flavour of Ruby 2 would be fine, I suspect
