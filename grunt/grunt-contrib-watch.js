@@ -4,8 +4,13 @@ module.exports = function(grunt) {
     compass: {
       files: ['<%= compass.dev.src %>'],
       tasks: ['compass:dev'],
+      options: {
+        livereload: {
+          port: 1337,
+        },
+      },
     },
-    jshint :{
+    jshint: {
       files: ['<%= jshint.app.src %>'],
       tasks: ['jshint'],
     },
