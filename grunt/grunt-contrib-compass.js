@@ -14,7 +14,7 @@ module.exports = function(grunt) {
       src: ['source/assets/stylesheets/sass/**/*.sass'],
       options: {
         config: 'config.rb',
-        cssDir: 'source/assets/_build/css',
+        cssDir: '_build/css',
         outputStyle: 'compressed',
         noLineComments: true,
       },
