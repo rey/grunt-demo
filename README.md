@@ -45,6 +45,10 @@ On OS X using Homebrew:
 
 `bundle`
 
+### Install Grunt dependencies
+
+`npm install`
+
 ## Running Grunt
 
 Run the default grunt task (currently `dev`) by
