@@ -2,19 +2,19 @@ module.exports = function(grunt) {
 
   grunt.config('compass', {
     dev: {
-      src: ['assets/stylesheets/sass/**/*.sass'],
+      src: ['source/assets/stylesheets/sass/**/*.sass'],
       options: {
         config: 'config.rb',
-        cssDir: 'assets/stylesheets/css',
+        cssDir: 'source/assets/stylesheets/css',
         outputStyle: 'expanded',
         noLineComments: false,
       },
     },
     app: {
-      src: ['assets/stylesheets/sass/**/*.sass'],
+      src: ['source/assets/stylesheets/sass/**/*.sass'],
       options: {
         config: 'config.rb',
-        cssDir: 'assets/_build/css',
+        cssDir: 'source/assets/_build/css',
         outputStyle: 'compressed',
         noLineComments: true,
       },

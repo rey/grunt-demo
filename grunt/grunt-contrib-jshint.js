@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   grunt.config('jshint', {
     app: {
-      src: ['assets/javascripts/app/**/*.js'],
+      src: ['source/assets/javascripts/app/**/*.js'],
       options: {},
     },
   });
