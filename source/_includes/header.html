@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title != 'home' %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta content="width=device-width" name="viewport">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="/assets/stylesheets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+  <div class="rey">
+    <header>
+      <h1><a title="{{ site.tagline }}" class="brand" href="/"><span>{{ site.title }}</span></a></h1>
+    </header><!-- end 16c -->
+
