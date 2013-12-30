@@ -14,7 +14,13 @@ module.exports = function(grunt) {
   );
 
   grunt.registerTask('build', 'Run this before deploy',
-    ['compass:app', 'jshint', 'concat', 'uglify', 'imagemin']
+    [
+      'compass:build',
+      'jshint:build',
+      'concat:build',
+      'uglify:build',
+      'imagemin'
+    ]
   );
 
   grunt.registerTask('default', ['dev']);
