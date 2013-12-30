@@ -1,0 +1,28 @@
+exclude: [
+  "config.rb",
+  "docs",
+  "Gemfile",
+  "Gemfile.lock",
+  "grunt",
+  "Gruntfile.js",
+  "node_modules",
+  "notes",
+  "package.json",
+  "README.md",
+  "sass",
+]
+
+source:       ./source
+
+destination:  ./_build
+
+title:        This is the title
+
+tagline:      This is the tagline
+
+author:
+  name:       Rey Dhuny
+
+timezone:     Europe/London
+
+permalink:    /:year/:month/:title.html

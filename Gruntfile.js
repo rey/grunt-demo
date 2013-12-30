@@ -14,7 +14,7 @@ module.exports = function(grunt) {
   );
 
   grunt.registerTask('build', 'Run this before deploy',
-    ['compass:app', 'jshint', 'uglify', 'imagemin']
+    ['jekyll:app', 'compass:app', 'jshint', 'uglify', 'imagemin']
   );
 
   grunt.registerTask('default', ['dev']);

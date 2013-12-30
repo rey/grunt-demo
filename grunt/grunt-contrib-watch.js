@@ -2,12 +2,14 @@ module.exports = function(grunt) {
 
   grunt.config('watch', {
     options: {
-      livereload: {
-        port: 1337,
-      },
+      //livereload: {
+      //  port: 1337,
+      //},
     },
-    html: {
-      files: ['**/*.html']
+
+    jekyll: {
+      files: ['<%= jekyll.dev.source %>'],
+      tasks: ['jekyll:dev'],
     },
     compass: {
       files: ['<%= compass.dev.src %>'],
