@@ -6,11 +6,6 @@ module.exports = function(grunt) {
       //  port: 1337,
       //},
     },
-
-    jekyll: {
-      files: ['<%= jekyll.dev.source %>'],
-      tasks: ['jekyll:dev'],
-    },
     compass: {
       files: ['<%= compass.dev.src %>'],
       tasks: ['compass:dev'],
