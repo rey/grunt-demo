@@ -1,7 +1,11 @@
 module.exports = function(grunt) {
 
   grunt.config('jshint', {
-    app: {
+    dev: {
+      src: ['source/assets/javascripts/app/**/*.js'],
+      options: {},
+    },
+    build: {
       src: ['source/assets/javascripts/app/**/*.js'],
       options: {},
     },

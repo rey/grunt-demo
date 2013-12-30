@@ -4,8 +4,9 @@ module.exports = function(grunt) {
     app: {
       files: [
         {
-          src: ['source/assets/images/**/*.{png,jpg,jpeg,gif}'],
-          dest: '_build/images',
+          cwd: 'source/',
+          src: ['**/*.{png,jpg,jpeg,gif}'],
+          dest: '_build',
           expand: true,
         }
       ]

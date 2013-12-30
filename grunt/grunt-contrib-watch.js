@@ -1,22 +1,18 @@
 module.exports = function(grunt) {
 
   grunt.config('watch', {
-    options: {
-      livereload: {
-        port: 1337,
-      },
-    },
+    options: {},
     compass: {
       files: ['<%= compass.dev.src %>'],
       tasks: ['compass:dev'],
     },
     jshint: {
-      files: ['<%= jshint.app.src %>'],
-      tasks: ['jshint'],
+      files: ['<%= jshint.dev.src %>'],
+      tasks: ['jshint:dev'],
     },
     concat: {
-      files: ['<%= concat.app.src %>'],
-      tasks: ['concat'],
+      files: ['<%= concat.dev.src %>'],
+      tasks: ['concat:dev'],
     },
   });
 

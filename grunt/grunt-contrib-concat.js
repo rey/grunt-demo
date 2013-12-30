@@ -4,9 +4,19 @@ module.exports = function(grunt) {
     options: {
       separator: ';',
     },
-    app: {
-      src: ['source/assets/javascripts/app/**/*.js', 'source/assets/javascripts/libs/**/*.js'],
-      dest: 'source/assets/javascripts/concat.js',
+    dev: {
+      src: [
+        'source/assets/javascripts/app/**/*.js',
+        'source/assets/javascripts/lib/**/*.js'
+      ],
+      dest: 'source/assets/javascripts/_concat.dev.js',
+    },
+    build: {
+      src: [
+        'source/assets/javascripts/app/**/*.js',
+        'source/assets/javascripts/lib/**/*.js'
+      ],
+      dest: 'source/assets/javascripts/_concat.app.js',
     },
   });
 

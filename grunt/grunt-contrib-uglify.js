@@ -1,12 +1,15 @@
 module.exports = function(grunt) {
 
   grunt.config('uglify', {
-    app: {
+    options: {
+      report: true,
+    },
+    build: {
       files: {
-        '_build/assets/javascripts/minified.js':
-          [
-            'source/assets/javascripts/concat.js'
-          ]
+        '_build/assets/javascripts/min.js':
+        [
+          'source/assets/javascripts/_concat.app.js'
+        ]
       },
     },
   });
