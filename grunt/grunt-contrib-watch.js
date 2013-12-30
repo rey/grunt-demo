@@ -6,9 +6,6 @@ module.exports = function(grunt) {
         port: 1337,
       },
     },
-    html: {
-      files: ['**/*.html']
-    },
     compass: {
       files: ['<%= compass.dev.src %>'],
       tasks: ['compass:dev'],
@@ -16,6 +13,10 @@ module.exports = function(grunt) {
     jshint: {
       files: ['<%= jshint.app.src %>'],
       tasks: ['jshint'],
+    },
+    concat: {
+      files: ['<%= concat.app.src %>'],
+      tasks: ['concat'],
     },
   });
 
